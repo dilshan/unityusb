@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\UHWGameController.cs">
+    <Files>
+      <File FileName="Assets\UHWGameController.cs" Line="49" Column="20" />
+      <File FileName="Assets\UHWCollisionHandler.cs" Line="43" Column="3" />
+      <File FileName="Assets\UHWComLink.cs" Line="25" Column="1" />
+      <File FileName="Assets\UHWComData.cs" Line="25" Column="1" />
+      <File FileName="Assets\UHWPropControl.cs" Line="25" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
