@@ -1,5 +1,4 @@
-Unity3D - USB Custom Hardware Interface
-=======================================
+## Unity3D - USB Custom Hardware Interface ##
 
 This is a simple project to demonstrate the USB custom hardware interfacing with [Unity3D](http://unity3d.com) game engine on top of Microsoft Windows operating system(s).
 
@@ -7,7 +6,7 @@ The custom hardware unit used in this demo is build around Microchip’s PIC18F255
 
 ![unity3dusb-system](http://elect.wikispaces.com/file/view/unityhwfunction.png/440040710/unityhwfunction.png) 
 
-As illustrated in above figure, the host environment consists with 2 main applications such as Session Controller and Unity3D game. Session Controller is responsible for USB communication and data conversions. It’s a native application written using Delphi and it gets started with Unity game project. Communication between Session controller and Unity game project is happening through OS level shared memory location. In this demo both Session Controller and Unity game project are heavily depends on Windows API functions, and also both the applications requires administrative privileges to execute. 
+As illustrated in above figure, the host environment consists with 2 main applications such as <I>Session Controller</I> and <I>Unity3D game</I>. Session Controller is responsible for USB communication and data conversions. It’s a native application written using Delphi and it gets started with Unity game project. Communication between Session controller and Unity game project is happening through OS level shared memory location. In this demo both Session Controller and Unity game project are heavily depends on Windows API functions, and also both the applications requires administrative privileges to execute. 
 
 In this demo project MCU firmware is developed using MikroC PRO 5.0. Session controller is developed using Embarcadero Delphi XE3 and all the Unity scripts are in C# style. HID interface of this project is based around [J.W. Beunder’s](mailto:joop@beunders.be) Delphi HID library.
 
